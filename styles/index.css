@@ -10,11 +10,10 @@ body {
 }
 
 .logo_container {
-    width: 187px; 
-    height: 32;
+    width: 1400px; 
+    height: 78px;
     display: inline-block;
     color: #173A56;
-    margin-right: 50px;
 }
 
 .links {
@@ -24,6 +23,9 @@ body {
 
 li {
     display: inline-block; 
+}
+.list {
+    display: inline-block;
 }
 
 button {
@@ -35,10 +37,12 @@ button {
     background-color: #FF9900;
     width: 110px;
     height: 46px;
+    text-align: center;
 }
 .sign_in {
     display: inline-block;
     background-color: #FFFFFF;
     width: 102px;
     height: 46px;
+    text-align: center;
 }
