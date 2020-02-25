@@ -152,3 +152,23 @@ button {
     margin-top: 10px;
     margin-right: 80px;
 }
+
+a:link {
+    text-decoration: none;
+    color: #2F281E; 
+}
+a:visited {
+    color: lightgray;
+}
+
+a:hover {
+    color: #FF9900;
+}
+
+a:active {
+    color: black; 
+}
+
+.buttons:first-child {
+    color: #FFFFFF; 
+}
