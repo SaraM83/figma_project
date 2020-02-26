@@ -6,12 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6bafa4d9a2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
         <section>
-                <div class="logo_img">
-                    <img src="images/Logo_figma.png">
+            <div class="logo_img">
+                <img src="images/Logo_figma.png">
                 </div>
                 <nav class="links">
                 <ul class="list">
@@ -21,11 +23,10 @@
                 <li><a href="#">Resources</a></Resources></li>
                 </ul>
                 </nav>
-                <button class="sign_in"><a href="#">Sign In</a></button>
-                <button class="sign_up"><a href="#">Sign Up</a></button>
-            </section>
+                <button id="sign_in"><a href="">Sign In</a></button>
+                <button id="sign_up"><a href="">Sign Up</a></button>
+        </section>
     <section>
-        <div class="content">
             <div class="text"><div class="img">
             <div class="content_title"></h1>The Design Thinking<br>superpowers</h1></div>
             <div class="content_text"><p>Tools, tutorials, design and innovation experts, all 
@@ -33,12 +34,28 @@
             </p></div>
             </div>
             <div class="buttons">
-                <button class="content_button"><a href="#">Get started</a></button>
-                <button class="content_button_video"><a href="#">Watch the video</a></button>
+                <button id="content_button"><a href="">Get started</a></button>
+                <button id="content_button_video"><a href=""><i class="material-icons">
+                arrow_right</i>Watch the video</a></button>
             </div> 
         </div>  
         <div class="img"><img src="images/Image_smaller.png"></div> 
     </section>
+    <section>
+        <div class="top"><p>We design tools to unveil <br>your superpowers</p></div>
+        <div class="grid-container">
+            <div class="grid-item-1"><button class="first_click"><i class="fas fa-mouse-pointer"></i></button> 
+            <br><br><span>First click tests</span><br><br>While most 
+            people enjoy<br>casino gambling</div>
+            <div class="grid-item-2"><button class="design_surv"></button><br><br><span>Design surveys</span><br><br>Sports betting, 
+            lottery<br> and bingo playing for the fun</div>
+            <div class="grid-item-3"><button class="pref_test"><i class="fas fa-heart"></i></button><br><br>
+            <span>Preference test</span><br><br>The Myspace page defines<br>the individual</div>
+            <div class="grid-item-4"><button class="sec_test"><i class="fas fa-hourglass-half"></i></button><br><br><span>Second test
+            </span><br><br>Personal choices and the <br>overall personality of the<br> person</div>
+        </div>
+    </section>
+    <button id="sign-up">SIGN UP NOW</button>
 </main>
 </body>
 </html>

@@ -37,6 +37,8 @@ li {
     display: inline-block;
     padding-left: 320px;
     margin-bottom: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 button {
@@ -45,7 +47,7 @@ button {
     padding-bottom: 17px;
 }
 
-.sign_up {
+#sign_up {
     display: inline-block;
     background-color: #FF9900;
     width: 110px;
@@ -61,7 +63,7 @@ button {
     color: #FFFFFF;
 }
 
-.sign_in {
+#sign_in {
     display: inline-block;
     background-color: #FFFFFF;
     width: 102px;
@@ -104,16 +106,14 @@ button {
 
 .content_text {
     display: inline-block;
-    margin-bottom: 20px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     color: #544837;
-    margin-top: 30px;
 }
 
-.content_button {
+#content_button {
     display: inline-block;
     width: 173px;
     height: 53px;
@@ -128,7 +128,7 @@ button {
     border-style: none;
 }
 
-.content_button_video {
+#content_button_video {
     display: inline-block;
     width: 161px;
     height: 23px;
@@ -158,7 +158,7 @@ a:link {
     color: #2F281E; 
 }
 a:visited {
-    color: lightgray;
+    color: black;
 }
 
 a:hover {
@@ -169,6 +169,89 @@ a:active {
     color: black; 
 }
 
-.buttons:first-child {
-    color: #FFFFFF; 
+.top {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 54px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #2F281E;
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 48px;
+    margin-bottom: 34px;
+    margin-left: 300px;
+}
+
+.grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4 {
+    background-color: #FFFFFF;
+    color: #544837;
+    font-family: Poppins;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.first_click {
+    background-color: #7752BE;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-family: Poppins;
+}
+
+.design_surv {
+    background-color: #FAB005;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-family: Poppins;
+}
+
+.pref_test {
+    background-color: #F03E3D;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-family: Poppins;
+}
+
+.sec_test {
+    background-color: #4DADF7;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+}
+#sign-up {
+    display: block;
+    width: 173px;
+    height: 53px;
+    background-color: #FF9900;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border-style: none;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+span {
+    font-weight: 600;
+    font-size: 20px;
 }
